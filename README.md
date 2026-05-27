@@ -2,50 +2,50 @@
 
 A modern AI-powered image generation web application that allows users to create stunning images from text prompts. The app supports multiple AI models, flexible generation settings, and a smooth UI experience with dark and light themes.
 
-## 🚀 Overview
+## Overview
 
 This project is built to make AI image generation simple and accessible. Users can type a prompt, customize generation settings, and instantly receive AI-generated images.
 
 It is designed for learning, experimentation, and showcasing frontend + API integration skills.
 
-## ✨ Key Features
+## Key Features
 
-### 🎨 AI Image Generation
+### AI Image Generation
 
 * Generate images from any text prompt
 * High-quality outputs depending on selected model
 
-### 🤖 Multiple AI Models
+### Multiple AI Models
 
 * Choose between different image generation models
 * Each model may produce different styles and quality outputs
 
-### 🖼️ Batch Generation
+### Batch Generation
 
 * Generate 1 to 4 images at once
 * Compare different outputs easily
 
-### 📐 Aspect Ratio Control
+### Aspect Ratio Control
 
 * Choose image formats like square, portrait, or landscape
 * Useful for different use cases (profile pics, wallpapers, etc.)
 
-### 🎲 Random Prompt Generator
+### Random Prompt Generator
 
 * Get instant creative prompt suggestions
 * Helps when you don’t know what to generate
 
-### 🌗 Dark / Light Mode
+### Dark / Light Mode
 
 * Fully responsive theme system
 * Smooth toggle between dark and light UI
 
-### ⚡ Fast & Responsive UI
+### Fast & Responsive UI
 
 * Clean layout
 * Works on desktop and mobile devices
 
-## 🧠 How It Works
+## How It Works
 
 1. Open the application
 2. Enter a text prompt or click **Random Prompt**
@@ -55,20 +55,14 @@ It is designed for learning, experimentation, and showcasing frontend + API inte
 6. Click **Generate**
 7. Wait for AI to return generated images
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * HTML5 – Structure
 * CSS3 – Styling and themes
 * JavaScript (ES6+) – Logic and interactivity
-* AI Image Generation API (example: Stable Diffusion, OpenAI, or other diffusion models)
+* AI Image Generation API 
 
-### 3. Run locally
-
-You can simply open `index.html` in your browser OR use a local server like Live Server in VS Code.
-
-Then access them in your JavaScript code depending on your setup.
-
-## 🧩 Example Usage Flow
+## Example Usage Flow
 
 * User enters: "a futuristic city at sunset"
 * Selects model: Stable Diffusion XL
@@ -77,17 +71,17 @@ Then access them in your JavaScript code depending on your setup.
 * Clicks Generate
 * App returns 4 AI-generated images
 
-## 🎯 Future Improvements
+##  Future Improvements
 
-* 💾 Save generated images to gallery
-* 👤 User accounts and authentication
-* 🕘 Prompt history system
-* 🔄 Image variation and remix feature
-* 🌍 Community gallery
-* 📤 Share to social media
-* 🧠 Advanced prompt enhancement (AI prompt helper)
+*  Save generated images to gallery
+*  User accounts and authentication
+*  Prompt history system
+*  Image variation and remix feature
+*  Community gallery
+*  Share to social media
+*  Advanced prompt enhancement (AI prompt helper)
 
-## 🖼️ UI Highlights
+## UI Highlights
 
 * Clean and modern interface
 * Card-based layout for controls
@@ -95,38 +89,17 @@ Then access them in your JavaScript code depending on your setup.
 * Responsive design for all screen sizes
 * Theme persistence using local storage
 
-## 🧪 Possible API Integrations
-
-You can integrate:
-
-* Stable Diffusion APIs
-* OpenAI image models
-* Replicate AI models
-* Hugging Face inference API
-
-## ⚠️ Notes
+## Notes
 
 * Image quality depends on selected model
 * API usage may require credits or authentication
 * Prompt quality strongly affects output results
 
-## 📌 Troubleshooting
 
-### Images not generating?
-
-* Check API key
-* Check network connection
-* Verify API endpoint
-
-### UI not updating theme?
-
-* Ensure localStorage is enabled
-* Check JavaScript console for errors
-
-## 👨‍💻 Developer Info
+## Developer Info
 
 This project is created for learning frontend development and AI API integration. It can be extended into a full SaaS product with authentication and payment features.
 
-## ❤️ Credits
+## Credits
 
 Built with passion for AI, design, and web development.
